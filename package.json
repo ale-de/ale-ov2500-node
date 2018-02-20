@@ -1,0 +1,31 @@
+{
+  "name": "ale-ov2500-node",
+  "version": "0.1.0",
+  "description": "Node to consume REST API of the Alcatel-Lucent Enterprise OV2500 Network Manager",
+  "main": "lib/ov2500.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "deep-diff": "^0.3.8",
+    "moment-timezone": "^0.5.14",
+    "request": "^2.83.0",
+    "rxjs": "^5.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ale-de/ale-ov2500-node.git"
+  },
+  "keywords": [
+    "ov2500",
+    "ALE",
+    "'Alcatel-Lucent",
+    "Enterprise'"
+  ],
+  "author": "Dirk Evrard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ale-de/ale-ov2500-node/issues"
+  },
+  "homepage": "https://github.com/ale-de/ale-ov2500-node#readme"
+}
