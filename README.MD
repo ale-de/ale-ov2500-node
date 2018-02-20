@@ -34,10 +34,10 @@ ov.login({login: {username: "admin", password: "switch"}})
 Retrieve the list of devices in OV2500
 ```
 ```
-**getNotifications(ipaddress)**
-Retrieve list of notifications (traps) for device with IP Address <ipaddress>
+**getNotifications([ipaddress])**
+Retrieve list of notifications (traps) for device with IP Address in list  [<ipaddress>]
 ```
 ```
-**getMacAddresses(ipaddress)**
-Retrieve list of ``AC addresses for device with IP Address <ipaddress>
+**getMacAddresses([ipaddresses])**
+Retrieve list of MAC addresses for device with IP Address in list [<ipaddresses>]
 ```
