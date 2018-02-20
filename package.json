@@ -1,10 +1,13 @@
 {
   "name": "ale-ov2500-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node to consume REST API of the Alcatel-Lucent Enterprise OV2500 Network Manager",
   "main": "lib/ov2500.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version patch": "npm version patch --force -m 'Release %s'",
+    "version minor": "npm version minor --force -m 'Release %s'",
+    "version major": "npm version major --force -m 'Release %s'"
   },
   "dependencies": {
     "deep-diff": "^0.3.8",
