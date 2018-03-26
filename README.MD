@@ -41,3 +41,11 @@ Retrieve list of notifications (traps) for device with IP Address in list  [<ipa
 **getMacAddresses([ipaddresses])**
 Retrieve list of MAC addresses for device with IP Address in list [<ipaddresses>]
 ```
+```
+**getWlanClientList()** v0.1.2
+Retrieve list of connected WLAN Devices
+```
+```
+**about()** v0.1.2
+Provide version information of OV2500
+```
