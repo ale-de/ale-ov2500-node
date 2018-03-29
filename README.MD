@@ -49,3 +49,7 @@ Retrieve list of connected WLAN Devices
 **about()** v0.1.2
 Provide version information of OV2500
 ```
+```
+**getWlanAPIntrusionList()** v0.1.3
+Retrieve list of WLAN Access Points from OV2500 that are intrusive
+```
