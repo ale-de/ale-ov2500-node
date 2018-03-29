@@ -53,3 +53,7 @@ Provide version information of OV2500
 **getWlanAPIntrusionList()** v0.1.3
 Retrieve list of WLAN Access Points from OV2500 that are intrusive
 ```
+```
+**getAuthRecordList()** v0.1.4
+Retrieve list of UPAM Authentication records from OV2500 that are intrusive
+```
