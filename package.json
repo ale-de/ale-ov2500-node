@@ -1,6 +1,6 @@
 {
   "name": "ale-ov2500-node",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Node to consume REST API of the Alcatel-Lucent Enterprise OV2500 Network Manager",
   "main": "lib/ov2500.js",
   "scripts": {
