@@ -21,6 +21,51 @@ ov.login({login: {username: "admin", password: "switch"}})
         ov.getDevices().then((result)=> {
             console.log("Retrieved %d devices from OV", result.length)
         }).catch(err=>{console.log("Error retrieving devices from OV", err)});
+                ov.getWlanClientList("CIRRUS").then((result) => {
+                    console.log("Retrieved %d wlan clients from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving wlan clients from OV", err)
+                });
+                ov.getDevices().then((result) => {
+                    console.log("Retrieved %d devices from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving devices from OV", err)
+                });
+                ov.getNotifications(["10.78.70.241"]).then((result) => {
+                    console.log("Retrieved %d notifications from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving notifications from OV", err)
+                });
+                ov.getMacAddresses(["10.78.70.241"]).then((result) => {
+                    console.log("Retrieved %d macaddresses from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving macaddresses from OV", err)
+                });
+                ov.getWlanAPIntrusionList().then((result) => {
+                    console.log("Retrieved %d intrusive APs from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving intrusive APs from OV", err)
+                });
+                ov.getAuthRecordList().then((result) => {
+                    console.log("Retrieved %d auth records from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving Auth records from OV", err)
+                });
+                ov.getAllAccountList().then((result) => {
+                    console.log("Retrieved %d account records from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving account records from OV", err)
+                });
+                ov.getAllAccessRoleProfileList().then((result) => {
+                    console.log("Retrieved %d Access role profiles from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving Access Role profiles from OV", err)
+                });
+                ov.getDeviceConfig(24).then((result) => {
+                    console.log("Retrieved %d vlan devices from OV", result.length)
+                }).catch(err => {
+                    console.log("Error retrieving vlan devices from OV", err)
+                });
     }).catch(err => {
     console.log("Could not connect to OV");
 });
@@ -56,4 +101,20 @@ Retrieve list of WLAN Access Points from OV2500 that are intrusive
 ```
 **getAuthRecordList()** v0.1.4
 Retrieve list of UPAM Authentication records from OV2500 that are intrusive
+```
+```
+**addAccount(usr,pwd,profile,policy)** v0.1.5
+Add account to OV2500 UPAM Account list
+```
+```
+**getAllAccountList()** v0.1.5
+Retrieve all accounts from OV2500 UPAM Account list
+```
+```
+**getAllAccessRoleProfileList()** v0.1.5
+Retrieve all Access Role profiles from OV2500 templates
+```
+```
+**getDeviceConfig(vlan)** v0.1.5
+Retrieve all devices from OV2500 assigned to specific vlan
 ```

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "version patch": "npm version patch --force -m 'Release %s'",
     "version minor": "npm version minor --force -m 'Release %s'",
-    "version major": "npm version major --force -m 'Release %s'"
+    "version major": "npm version major --force -m 'Release %s'",
+    "publish": "npm publish"
   },
   "dependencies": {
     "deep-diff": "^0.3.8",
