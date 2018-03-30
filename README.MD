@@ -1,6 +1,6 @@
 
 Welcome to the Alcatel-Lucent Enterprise OV2500 REST API node.
-This node allows to perform REST API calls to the Alcatel-Lucent Enterprise OmniVista 2500 Network Manager
+This node allows to perform REST API calls to the Alcatel-Lucent Enterprise OmniVista 2500 Network Manager and its cloud variant OV Cirrus (http://www.ovcirrus.com/).
 
 **Install**
 
