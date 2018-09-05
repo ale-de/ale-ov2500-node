@@ -75,6 +75,14 @@ ov.login({login: {username: "admin", password: "switch"}})
 **Supported methods**
 
 ```
+**login()**
+Log in to OV2500
+```
+```
+**logout()**
+Log out from OV2500
+```
+```
 **getDevices()**
 Retrieve the list of devices in OV2500
 ```
